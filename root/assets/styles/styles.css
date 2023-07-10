@@ -1,0 +1,16 @@
+body {
+    font-family: "Roboto", "sans-serif";
+    background-color: #f6f7f2;
+}
+
+footer {
+    color: lightgray;
+    font-size: small;
+}
+
+/* My Styles */
+.my-brand{
+    font-family: "Playfair Display", serif;
+    margin-right: -8rem !important;
+}
+
