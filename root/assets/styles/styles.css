@@ -8,9 +8,96 @@ footer {
     font-size: small;
 }
 
+nav {
+    font-family: "Roboto", "sans-serif";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", serif;
+}
+
+/* Sections */
+#introduction {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.704), rgba(0, 0, 0, 0)),
+    url("../images/banners/designer-banner.png");
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#portfolio{
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+#aboutMe{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.704), rgba(0, 0, 0, 0)),
+    url("../images/banners/designer-banner-2.png");
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+/* Portfolio Zoom */
+.zoom {
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 /* My Styles */
 .my-brand{
     font-family: "Playfair Display", serif;
     margin-right: -8rem !important;
 }
 
+.myIntro{
+    max-width: 500px;
+}
+
+.myAboutMe{
+    max-width: 800px;
+}
+
+.myLinks{
+    font-size: 90px !important;
+}
+
+.toggleBtn{
+    font-size: small;
+}
+
+.textPrimary{
+    color: #e26b49;
+}
+
+.textSecondary{
+    color: #e8c25f !important;
+}
+
+.textHeader{
+    color: #212121;
+}
+
+.textBody{
+    color: #424242;
+}
+
+.textBodyAlt{
+    color: #FAFAFA
+}
+
+.textSubtitle{
+    color: #BDBDBD;
+}
