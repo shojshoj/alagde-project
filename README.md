@@ -13,7 +13,7 @@ A School Project Designed by Claire Alagde and Developed by Joshua Fulgencio
 ## Hosting <a name = "hosting"></a>
 
 Requirements of this Project is for it to be hosted. Hosting is done through Azure.
-Link: <a href=".">Placeholder Link</a>
+Link: <a href="https://witty-mushroom-0e2eb8d10.3.azurestaticapps.net">Web App</a>
 
 ### Contributions <a name = "contributions"></a>
 
